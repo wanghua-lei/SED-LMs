@@ -6,6 +6,6 @@ Our method combines the strengths of pretrained language models with audio model
 
 ## 🚀Method
 <div align=center>
-<img src="img/method.png" width="400" >
+<img src="img/method.png" width="300" >
 </div>
 We represent the DCASE2023 baseline SED systems and language model for automatic SED. (a) shows baseline SED system. (b) is the architecture of SED-LM. The module in the dashed block is a transformer layer with cross-attention.
