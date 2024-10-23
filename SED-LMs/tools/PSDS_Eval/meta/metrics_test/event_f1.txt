@@ -1,0 +1,48 @@
+Event based metrics (onset-offset)
+========================================
+  Evaluated length                  : 17947.10 sec
+  Evaluated files                   : 2000 
+  Evaluate onset                    : True 
+  Evaluate offset                   : True 
+  T collar                          : 200.00 ms
+  Offset (length)                   : 20.00 %
+
+  Overall metrics (micro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 30.95 %
+    Precision                       : 31.05 %
+    Recall                          : 30.85 %
+  Error rate
+    Error rate (ER)                 : 1.29 
+    Substitution rate               : 0.09 
+    Deletion rate                   : 0.61 
+    Insertion rate                  : 0.60 
+
+  Class-wise average metrics (macro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 30.94 %
+    Precision                       : 31.17 %
+    Recall                          : 30.89 %
+  Error rate
+    Error rate (ER)                 : 1.38 
+    Deletion rate                   : 0.69 
+    Insertion rate                  : 0.69 
+  
+
+  Class-wise metrics
+  ======================================
+    Event label  | Nref    Nsys  | F        Pre      Rec    | ER       Del      Ins    |
+    ------------ | -----   ----- | ------   ------   ------ | ------   ------   ------ |
+    engine_idl.. | 879     865   | 36.1%    36.4%    35.8%  | 1.27     0.64     0.63   |
+    air_condit.. | 859     746   | 25.0%    26.9%    23.4%  | 1.40     0.77     0.63   |
+    car_horn     | 963     900   | 36.6%    37.9%    35.4%  | 1.23     0.65     0.58   |
+    gun_shot     | 915     940   | 23.2%    22.9%    23.5%  | 1.56     0.77     0.79   |
+    siren        | 874     789   | 38.0%    40.1%    36.2%  | 1.18     0.64     0.54   |
+    children_p.. | 892     862   | 28.3%    28.8%    27.8%  | 1.41     0.72     0.69   |
+    drilling     | 913     801   | 32.2%    34.5%    30.2%  | 1.27     0.70     0.58   |
+    street_music | 870     972   | 31.1%    29.4%    32.9%  | 1.46     0.67     0.79   |
+    jackhammer   | 852     1045  | 38.8%    35.2%    43.2%  | 1.36     0.57     0.79   |
+    dog_bark     | 896     936   | 20.1%    19.7%    20.5%  | 1.63     0.79     0.84   |
+

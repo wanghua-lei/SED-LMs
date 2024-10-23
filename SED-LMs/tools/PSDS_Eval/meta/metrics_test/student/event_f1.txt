@@ -1,0 +1,48 @@
+Event based metrics (onset-offset)
+========================================
+  Evaluated length                  : 17947.10 sec
+  Evaluated files                   : 2000 
+  Evaluate onset                    : True 
+  Evaluate offset                   : True 
+  T collar                          : 200.00 ms
+  Offset (length)                   : 20.00 %
+
+  Overall metrics (micro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 8.34 %
+    Precision                       : 8.41 %
+    Recall                          : 8.27 %
+  Error rate
+    Error rate (ER)                 : 1.73 
+    Substitution rate               : 0.09 
+    Deletion rate                   : 0.83 
+    Insertion rate                  : 0.81 
+
+  Class-wise average metrics (macro-average)
+  ======================================
+  F-measure
+    F-measure (F1)                  : 8.35 %
+    Precision                       : 8.42 %
+    Recall                          : 8.29 %
+  Error rate
+    Error rate (ER)                 : 1.82 
+    Deletion rate                   : 0.92 
+    Insertion rate                  : 0.90 
+  
+
+  Class-wise metrics
+  ======================================
+    Event label  | Nref    Nsys  | F        Pre      Rec    | ER       Del      Ins    |
+    ------------ | -----   ----- | ------   ------   ------ | ------   ------   ------ |
+    air_condit.. | 859     816   | 6.6%     6.7%     6.4%   | 1.82     0.94     0.89   |
+    siren        | 874     840   | 9.0%     9.2%     8.8%   | 1.78     0.91     0.87   |
+    children_p.. | 892     833   | 9.4%     9.7%     9.1%   | 1.75     0.91     0.84   |
+    engine_idl.. | 879     898   | 10.8%    10.7%    10.9%  | 1.80     0.89     0.91   |
+    jackhammer   | 852     872   | 9.6%     9.5%     9.7%   | 1.83     0.90     0.93   |
+    street_music | 870     855   | 9.3%     9.4%     9.2%   | 1.80     0.91     0.89   |
+    gun_shot     | 915     992   | 7.4%     7.2%     7.8%   | 1.93     0.92     1.01   |
+    drilling     | 913     849   | 7.5%     7.8%     7.2%   | 1.79     0.93     0.86   |
+    dog_bark     | 896     846   | 6.2%     6.4%     6.0%   | 1.82     0.94     0.88   |
+    car_horn     | 963     958   | 7.7%     7.7%     7.7%   | 1.84     0.92     0.92   |
+
